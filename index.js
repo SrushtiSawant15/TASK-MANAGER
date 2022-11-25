@@ -101,7 +101,7 @@ const handleSubmit = (event) => {
 
   if (input.title === "" || input.description === "" || input.type === "") {
     return alert("Please fill all the fields");
-  }
+  }  
 
   taskContents.insertAdjacentHTML(
     "beforeend",
