@@ -8,7 +8,7 @@ const taskModal = document.querySelector(".task__modal__body");
 
 const htmlTaskContent = ({ id, title, description, type, url }) => `
   <div class='col-md-6 col-lg-4 mt-3' id=${id} key=${id}>
-    <div class='card shadow-sm task__card'>
+    <div class='card shadow-sm task__card'> 
       <div class='card-header d-flex gap-2 justify-content-end task__card__header'>
         <button type='button' class='btn btn-outline-info mr-2' name=${id} onclick="editTask.apply(this, arguments)">
           <i class='fas fa-pencil-alt' name=${id}></i>
