@@ -38,7 +38,7 @@ const htmlTaskContent = ({ id, title, description, type, url }) => `
         type='button' 
         class='btn btn-outline-primary float-right' 
         data-bs-toggle='modal'
-        data-bs-target='#showTask'
+        data-bs-target='#showTask'  
         id=${id}
         onclick='openTask.apply(this, arguments)'
         >
