@@ -43,7 +43,7 @@ const htmlTaskContent = ({ id, title, description, type, url }) => `
         onclick='openTask.apply(this, arguments)'
         >
           Open Task
-        </button>
+        </button> 
       </div>
     </div>
   </div>
